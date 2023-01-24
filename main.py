@@ -51,7 +51,7 @@ def get_movie_by_year(year1: str, year2: str):
 
 
 @app.get('/movie/rating/<value>')
-def get_movie_bu_rating(value: str):
+def get_movie_by_rating(value: str):
     query = """
     SELECT * FROM netflix
     """
