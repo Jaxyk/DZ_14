@@ -39,7 +39,7 @@ def get_movie_by_genre(type_movie, release_year, listed_in):
         result.append(
             {
                 'title': item['title'],
-                'description': item['description']
+                'description': item['description'],
             }
         )
 
