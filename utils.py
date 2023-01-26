@@ -57,7 +57,7 @@ def search_by_cast(name1: str = 'Jack Black', name2: str = 'Dustin Hoffman'):
     result = get_all(query)
 
     for item in result:
-        for actor in item['cast'].split('.'):
+        for actor in item['cast'].split(','):
             cast.append(actor)
 
     for actor in cast:
